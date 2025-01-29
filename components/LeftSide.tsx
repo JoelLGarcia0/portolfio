@@ -1,7 +1,6 @@
 import React from 'react'
 import { TbBrandGithub } from "react-icons/tb";
 import {SlSocialLinkedin,SlSocialInstagram } from "react-icons/sl";
-import { MdOutlineMailOutline } from "react-icons/md";
 
 const LeftSide = () => {
   return (

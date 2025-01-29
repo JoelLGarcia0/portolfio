@@ -1,15 +1,12 @@
 import React, { useState } from 'react'
 import {motion} from "framer-motion";
-import { once } from 'events';
 
 const Banner = () => {
 
  const letters = "full-stack developer.".split(""); // Split "web developer" into an array of letters
- const[showMenu,setShowMenu] = useState(false);
 
  const handleScroll =(e:React.MouseEvent<HTMLAnchorElement, MouseEvent>)=>{
      e.preventDefault();
-     setShowMenu(false);
      const href= e.currentTarget.href;
      const targetId = href.replace(/.*\#/,"");
      const elem = document.getElementById(targetId);
