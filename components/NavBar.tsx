@@ -32,9 +32,8 @@ const NavBar = () => {
 
     };
 
-    function handleClick(e:any) {
-        if (e.target.contains(ref.current)) {
-            //do something with myRef.current 
+    function handleClick(e: React.MouseEvent<HTMLDivElement, MouseEvent>) {
+        if (e.target instanceof Node && ref.current?.contains(e.target)) {
             setShowMenu(false);
         }
     }

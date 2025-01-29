@@ -5,7 +5,7 @@ const Contact = () => {
     <section id="contact" className='max-x-contentContainer mx-auto py-10 xl:py-32 flex 
     flex-col gap-4 items-center justify-between scroll-mt-20'>
         <p className='font-titleFont text-lg text-textGreen font-semibold flex items-center tracking-wide'>
-            .03 What's Next?
+            .03 What&apos;s Next?
         </p>
         <h2 className='font-titleFont text-5xl font-semibold'> Get In Touch</h2>
         <p className='max-w-[600px] text-center text-textDark'>I am currently looking for opportunities and i check my email regularly. 

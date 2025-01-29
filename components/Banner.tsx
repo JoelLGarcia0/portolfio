@@ -1,4 +1,3 @@
-import React, { useState } from 'react'
 import {motion} from "framer-motion";
 
 const Banner = () => {
@@ -82,7 +81,7 @@ const Banner = () => {
         {" "}
         I am a recent FIU graduate with a Bachelor's degree in Computer Science, skilled in front-end and back-end development.
          My experience includes Agile software development, REST APIs, SQL, and database management with tools like MySQL and 
-         MongoDB. I’ve also worked with Docker and have leveraged my business and management background to lead teams and 
+         MongoDB. I&apos;ve also worked with Docker and have leveraged my business and management background to lead teams and 
          enhance technical projects.  {" "}
         </motion.p>
 
