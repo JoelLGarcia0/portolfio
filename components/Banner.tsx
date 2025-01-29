@@ -79,7 +79,7 @@ const Banner = () => {
         className='text-base md:max-w-[650px] text-textDark font-medium'
         >
         {" "}
-        I am a recent FIU graduate with a Bachelor's degree in Computer Science, skilled in front-end and back-end development.
+        I am a recent FIU graduate with a Bachelor&apos;s degree in Computer Science, skilled in front-end and back-end development.
          My experience includes Agile software development, REST APIs, SQL, and database management with tools like MySQL and 
          MongoDB. I&apos;ve also worked with Docker and have leveraged my business and management background to lead teams and 
          enhance technical projects.  {" "}
