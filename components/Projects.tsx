@@ -41,15 +41,15 @@ const Projects = () => {
              </h3>
 
              <p className='bg-[#161616] text-sm md-text-base p-2 md:p-6 rounded-md'>
-            A showcase of my Next.js, React, Typscript, and Javascript skills. Get to know me and some of 
-            the stuff i have worked on. Contact me via any of my pages or Email 
+            A showcase of my Next.js, React, TypScript, and JavaScript skills. Get to know me and some of 
+            the stuff i have worked on. Contact me via any of my pages or email 
             </p>
 
                 <ul className='text-xs md:text:text-sm font-titleFont tracking-wide flex gap-2 md:gap-5 justify-between text-textDark'>   
                      <li>Nextjs</li>
                      <li>React</li>
-                      <li>Typescript</li>
-                      <li>Tailwindcss</li>
+                     <li>TypeScript</li>
+                     <li>Tailwindcss</li>
                      <li>Vercel</li>
                 </ul>
 

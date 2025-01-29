@@ -29,10 +29,10 @@ const About = () => {
           energy into learning as much as I can about web applications and web development, both on the front and back end.  </span> 
         </p>
         <p>
-            Here are a few technologies i have worked with in recently and in the past:
+            Here are a few technologies i&apos;ve worked with recently:
         </p>
         <ul className='max-w-[450px] text-sm font-titleFont grid grid-cols-3 gap-2 mt-2'>
-            <li className='flex items-center gap-2 hover:text-textGreen hover:underline'><span className='text-textGreen'><AiFillThunderbolt/></span> JavaScript (ES6+)</li>
+            <li className='flex items-center gap-2 hover:text-textGreen hover:underline'><span className='text-textGreen'><AiFillThunderbolt/></span> JavaScript</li>
             <li className='flex items-center gap-2 hover:text-textGreen hover:underline'><span className='text-textGreen'><AiFillThunderbolt/></span> Next.js</li>
             <li className='flex items-center gap-2 hover:text-textGreen hover:underline'><span className='text-textGreen'><AiFillThunderbolt/></span> React</li>
             <li className='flex items-center gap-2 hover:text-textGreen hover:underline'><span className='text-textGreen'><AiFillThunderbolt/></span> Node.js</li>
