@@ -5,9 +5,9 @@ import {motion} from "framer-motion";
 import Banner from "@/components/Banner";
 import About from "@/components/About";
 import Projects from "@/components/Projects";
-import NavBar from "@/components/Navbar";
 import Contact from "@/components/Contact";
 import Footer from "@/components/Footer";
+import NavBar from "@/components/NavBar";
 
 
 export default function Home() {
@@ -24,7 +24,7 @@ export default function Home() {
       text-textLight overflow-x-hidden overflow-y-scroll scrollbar scrollbar-track-textDark/20 scrollbar-thumb-textGreen/60">
 
           <NavBar />
-          {/* container after Navbar */}
+          {/* container after NavBar */}
 
           <div className="w-full h-[88vh] xl:flex items-center gap-20 justify-between ">
 
