@@ -8,8 +8,8 @@ const Contact = () => {
             .03 What&apos;s Next?
         </p>
         <h2 className='font-titleFont text-5xl font-semibold'> Get In Touch</h2>
-        <p className='max-w-[600px] text-center text-textDark'>I am currently looking for opportunities and i check my email regularly. 
-            if you have any questions or want to reach out to me directly, please do not hesitate to do so </p>
+        <p className='max-w-[600px] text-center text-textDark'>I am currently looking for opportunities and I check my 
+        email regularly. If you have any questions or want to reach out to me directly, please do not hesitate to do so. </p>
         
      <a href="mailto:joellorenzogarcia0@gmail.com"
      >

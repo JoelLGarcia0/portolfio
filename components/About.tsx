@@ -12,27 +12,31 @@ const About = () => {
     <SectionTitle title="About Me" titleNo=".01"/>  
     <div className='flex flex-col lgl:flex-row gap-16'>
         <div className='w-full lgl:w-2/3 text-base text-textDark font-medium flex flex-col gap-4'>
-        <p> Hello! my name is Joel Garcia and i enjoy sports, finance, and learning every aspect of buildin g innovative and 
-            stylish applications. I was always curious as a child and even as an adult on how things online were created which is how my journey began.
-            In highschool i took Web design courses which i always loved. Eventually, i rediscovered my love for computers and dove into 
-            the <span className='text-textGreen'>Computer Science Program at FIU </span>. There i started from the ground up and began learning things like Java, HTML, CSS and Computer Architecture. 
+        <p> Hello! My name is Joel Garcia. I enjoy sports, finance, and learning every aspect of building innovative and stylish 
+            applications. I was always curious as a child about how things online were created, and that had carried over into 
+            adulthood. That&apos;s how my journey began. In high school I took Web design courses, which I always loved. Eventually,
+             I rediscovered my love for computers and dove into the <span className='text-textGreen'>Computer Science Program 
+             at FIU </span>. From there, I started from the ground up and began learning things like Java, HTML, CSS and Computer 
+             Architecture.
         </p>
         <p> 
-            As i started developing my skills, building some backend applications, and learning about Agile software development, i submerged myself into
-            trying to learn as much as possible in my downtime. I spearheaded a backend application in school that was able to perform CRUD functionality and 
-            connect to a database that i created with MySQL. I was voted Scrum master by my peers and made sure that the project was completed while also helping students that 
-            were having trouble completing their portion.<span className='text-textGreen'> I am an extremely motivated individual and have fully designated my time and energy into learning as much as i can 
-            about web applications and web development on the front and back end. </span> 
+        As I started developing my skills, building some backend applications, and learning about
+         Agile software development, I submerged myself into trying to learn as much as possible in my downtime.
+          I spearheaded a backend application in school that was able to perform CRUD functionality and connect to 
+          a database that I created using MySQL. I was voted Scrum master by my peers, and made sure that the project 
+          was completed, while also helping students that were having trouble completing their portion.
+          <span className='text-textGreen'> I am an extremely motivated individual and have fully designated my time and 
+          energy into learning as much as I can about web applications and web development, both on the front and back end.  </span> 
         </p>
         <p>
             Here are a few technologies i have worked with in recently and in the past:
         </p>
         <ul className='max-w-[450px] text-sm font-titleFont grid grid-cols-3 gap-2 mt-2'>
-            <li className='flex items-center gap-2 hover:text-textGreen hover:underline'><span className='text-textGreen'><AiFillThunderbolt/></span> Javascript (ES6+)</li>
+            <li className='flex items-center gap-2 hover:text-textGreen hover:underline'><span className='text-textGreen'><AiFillThunderbolt/></span> JavaScript (ES6+)</li>
             <li className='flex items-center gap-2 hover:text-textGreen hover:underline'><span className='text-textGreen'><AiFillThunderbolt/></span> Next.js</li>
             <li className='flex items-center gap-2 hover:text-textGreen hover:underline'><span className='text-textGreen'><AiFillThunderbolt/></span> React</li>
             <li className='flex items-center gap-2 hover:text-textGreen hover:underline'><span className='text-textGreen'><AiFillThunderbolt/></span> Node.js</li>
-            <li className='flex items-center gap-2 hover:text-textGreen hover:underline'><span className='text-textGreen'><AiFillThunderbolt/></span> Typescript</li>
+            <li className='flex items-center gap-2 hover:text-textGreen hover:underline'><span className='text-textGreen'><AiFillThunderbolt/></span> TypeScript</li>
             <li className='flex items-center gap-2 hover:text-textGreen hover:underline'><span className='text-textGreen'><AiFillThunderbolt/></span> MySQL</li>
             <li className='flex items-center gap-2 hover:text-textGreen hover:underline'><span className='text-textGreen'><AiFillThunderbolt/></span> Tailwindcss</li>
             <li className='flex items-center gap-2 hover:text-textGreen hover:underline'><span className='text-textGreen'><AiFillThunderbolt/></span> Java</li>
