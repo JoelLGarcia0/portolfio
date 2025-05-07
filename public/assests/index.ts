@@ -4,5 +4,14 @@ import profileImg from "./images/Profile.png";
 import portfolio from "./images/porfolio.png";
 import cubabakery from "./images/cubabakery.png";
 import leeconstruction from "./images/leeconstruction.png";
+import restweb from "./images/restweb.png";
 
-export { logo, logo2, profileImg, portfolio, cubabakery, leeconstruction };
+export {
+  logo,
+  logo2,
+  profileImg,
+  portfolio,
+  cubabakery,
+  leeconstruction,
+  restweb,
+};

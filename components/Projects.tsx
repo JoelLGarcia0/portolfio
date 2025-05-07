@@ -1,7 +1,12 @@
 import React from "react";
 import SectionTitle from "./SectionTitle";
 import Image from "next/image";
-import { cubabakery, leeconstruction, portfolio } from "@/public/assests";
+import {
+  cubabakery,
+  leeconstruction,
+  portfolio,
+  restweb,
+} from "@/public/assests";
 import { TbBrandGithub } from "react-icons/tb";
 import { RxOpenInNewWindow } from "react-icons/rx";
 
@@ -91,7 +96,7 @@ const Projects = () => {
             </a>
             <div
               className="w-full xl-w-1/2 flex flex-col gap-6 lgl:justify-between 
-    items-end text-left z-10"
+    items-end text-right z-10"
             >
               <p className="font-titleFont text-textGreen text-sm tracking-wide">
                 Featured Project
@@ -196,6 +201,72 @@ const Projects = () => {
                 <a
                   className="hover:text-textGreen duration-300"
                   href="https://lee-construction.vercel.app/"
+                  target="_blank"
+                >
+                  <RxOpenInNewWindow />
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        {/* Project 4 */}
+        <div className="w-full flex flex-col items-center justify-between gap-28 mt-1">
+          <div className="flex flex-col xl:flex-row-reverse gap-6">
+            <a
+              className="w-full h-auto relative group"
+              href="https://www.restweb.dev"
+              target="_blank"
+            >
+              <div>
+                <Image
+                  className="w-full h-full object-contain"
+                  src={restweb}
+                  alt="Restweb Landing Page"
+                />
+              </div>
+            </a>
+            <div
+              className="w-full xl-w-1/2 flex flex-col gap-6 lgl:justify-between 
+    items-end text-right z-10"
+            >
+              <p className="font-titleFont text-textGreen text-sm tracking-wide">
+                Featured Project
+              </p>
+
+              <h3 className="text-2xl font-bold"> RESTWeb Dev Website</h3>
+
+              <p className="bg-[#161616] text-sm md-text-base p-2 xl:-mr-16 md:p-6 rounded-md">
+                RESTWeb.dev is my personal web development brand where I design
+                and build modern websites for small businesses. I created the
+                site using Next.js and Tailwind CSS, focusing on clean design,
+                responsive layout, and fast performance. The site showcases my
+                services, past work, and contact options for potential clients.
+                I also integrated SEO best practices and custom animations to
+                create a professional and user-friendly experience. RESTWeb.dev
+                reflects my passion for helping businesses grow through
+                well-built, effective web solutions.
+              </p>
+
+              <ul className="text-xs md:text:text-sm font-titleFont tracking-wide flex gap-2 md:gap-5 justify-between text-textDark">
+                <li>Nextjs</li>
+                <li>React</li>
+                <li>TypeScript</li>
+                <li>Tailwindcss</li>
+                <li>Vercel</li>
+              </ul>
+
+              <div className="text-2xl flex gap-4">
+                <a
+                  className="hover:text-textGreen duration-300"
+                  href="https://github.com/JoelLGarcia0"
+                  target="_blank"
+                >
+                  <TbBrandGithub />
+                </a>
+                <a
+                  className="hover:text-textGreen duration-300"
+                  href="https://restweb.dev"
                   target="_blank"
                 >
                   <RxOpenInNewWindow />
