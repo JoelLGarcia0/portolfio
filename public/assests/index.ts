@@ -5,6 +5,7 @@ import portfolio from "./images/porfolio.png";
 import cubabakery from "./images/cubabakery.png";
 import leeconstruction from "./images/leeconstruction.png";
 import restweb from "./images/restweb.png";
+import aichatbot from "./images/AIChatBot.png";
 
 export {
   logo,
@@ -14,4 +15,5 @@ export {
   cubabakery,
   leeconstruction,
   restweb,
+  aichatbot,
 };

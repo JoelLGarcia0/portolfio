@@ -93,6 +93,12 @@ const About = () => {
               <span className="text-textGreen">
                 <AiFillThunderbolt />
               </span>{" "}
+              PostgresSQL
+            </li>
+            <li className="flex items-center gap-2 hover:text-textGreen hover:underline">
+              <span className="text-textGreen">
+                <AiFillThunderbolt />
+              </span>{" "}
               Tailwindcss
             </li>
             <li className="flex items-center gap-2 hover:text-textGreen hover:underline">
@@ -112,6 +118,18 @@ const About = () => {
                 <AiFillThunderbolt />
               </span>{" "}
               Docker
+            </li>
+            <li className="flex items-center gap-2 hover:text-textGreen hover:underline">
+              <span className="text-textGreen">
+                <AiFillThunderbolt />
+              </span>{" "}
+              Streamlit
+            </li>
+            <li className="flex items-center gap-2 hover:text-textGreen hover:underline">
+              <span className="text-textGreen">
+                <AiFillThunderbolt />
+              </span>{" "}
+              OpenAI
             </li>
           </ul>
         </div>

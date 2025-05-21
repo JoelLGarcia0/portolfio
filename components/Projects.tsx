@@ -2,6 +2,7 @@ import React from "react";
 import SectionTitle from "./SectionTitle";
 import Image from "next/image";
 import {
+  aichatbot,
   cubabakery,
   leeconstruction,
   portfolio,
@@ -267,6 +268,72 @@ const Projects = () => {
                 <a
                   className="hover:text-textGreen duration-300"
                   href="https://restweb.dev"
+                  target="_blank"
+                >
+                  <RxOpenInNewWindow />
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        {/* Project 5 */}
+        <div className="w-full flex flex-col items-center justify-between gap-28 mt-10">
+          <div className="flex flex-col xl:flex-row gap-6">
+            <a
+              className="w-565 h-640 relative group"
+              href="https://mj-estates-ai.onrender.com/"
+              target="_blank"
+            >
+              <div>
+                <Image
+                  className="w-full h-full object-contain"
+                  src={aichatbot}
+                  alt="MJ Estates AI ChatBot"
+                />
+              </div>
+            </a>
+            <div
+              className="w-full xl-w-1/2 flex flex-col gap-6 lgl:justify-between 
+            items-end text-right xl:-ml-16 z-10"
+            >
+              <p className="font-titleFont text-textGreen text-sm tracking-wide">
+                Featured Project
+              </p>
+
+              <h3 className="text-2xl font-bold">
+                {" "}
+                AI Chatbot for Real Estate Brokerage
+              </h3>
+
+              <p className="bg-[#161616] text-sm md-text-base p-2 md:p-6 rounded-md">
+                I built a custom AI-powered chatbot for MJ Estates, a Miami real
+                estate brokerage, that instantly answers property questions,
+                provides buying and selling guidance, and captures client leads
+                in both English and Spanish. The chatbot uses Python, Streamlit,
+                and OpenAI to deliver a seamless, mobile-friendly experience and
+                automate lead notifications, helping agents engage with more
+                clients efficiently.
+              </p>
+
+              <ul className="text-xs md:text:text-sm font-titleFont tracking-wide flex gap-2 md:gap-5 justify-between text-textDark">
+                <li>Python</li>
+                <li>Streamlit</li>
+                <li>OpenAI</li>
+                <li>Render</li>
+              </ul>
+
+              <div className="text-2xl flex gap-4">
+                <a
+                  className="hover:text-textGreen duration-300"
+                  href="https://github.com/JoelLGarcia0"
+                  target="_blank"
+                >
+                  <TbBrandGithub />
+                </a>
+                <a
+                  className="hover:text-textGreen duration-300"
+                  href="https://lee-construction.vercel.app/"
                   target="_blank"
                 >
                   <RxOpenInNewWindow />
